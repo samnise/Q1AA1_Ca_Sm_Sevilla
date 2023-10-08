@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Pixelify+Sans&family=Playfair+Display&display=swap');
+
+*{
+    padding:0px;
+    margin:0px;
+}
+
+.navbar{
+    padding: 10px;
+    background-color: #ff4d6eb9;
+    border: 3px solid rgb(49, 155, 17);
+}
+.navbar img{
+    margin-left: 5px;
+    border: 2px solid rgb(201, 24, 74);
+    border-radius:30px;
+}
+.navbar .pink-rounded-links{
+    display:inline;
+    font-family: pixelify sans;
+    background-color:rgb(231, 52, 103);
+    border-radius:5px;
+    padding: 1vh;
+    margin-top: 2vh;
+    margin-right: 2vh;
+    float: right;
+    text-decoration: none;
+    color: rgb(109, 35, 48);
+}
+.banner{
+    background-image: url(images/banner3.jpg);
+    padding: 1.5vw;
+    height: 75vh;
+    width:90wv;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.banner .header{
+    color:rgb(31, 177, 50);
+    font-size: 3em;
+    font-family: fjalla one ;
+    margin-top: 1vh;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px #36862c;
+    text-align: left;
+}
+.banner span{
+    color:rgb(231, 52, 103);
+}
+.banner .par{
+    color:rgb(235, 241, 236);
+    font-family: playfair display;
+    font-size: 1.4em;
+    margin-top: 1vh;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px rgb(28, 59, 7);
+    text-align: left;
+}
+.banner .par-pink-rounded-link{
+    display:inline;
+    background-color:rgb(231, 52, 103);
+    border-radius:5px;
+    font-family: pixelify sans;
+    padding: 1vh;
+    margin-top: 1vh;
+    float: left;
+    text-decoration: none;
+    color: rgb(15, 255, 107);
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border: 3px solid rgb(49, 155, 17);
+    background-color:  #ff4d6e;
+    color: white;
+    text-align: left;
+}
+.footer p{
+    font-family: playfair display;
+    color:rgb(109, 35, 48);
+    padding-left: 25px;
+    margin-top: 30px;
+    margin-bottom: -57px;
+    font-size: 15px;
+}
+.footer .links a{
+    text-decoration: none;
+    float: right;
+}
+.footer .links img{
+    height: 5vh;
+    border-radius: 360px;
+    margin-right: 2.5px;
+    margin-bottom: 15px;
+    margin-right:10px;
+}
+.gallery{
+    background-image: url(images/banner3.jpg);
+    padding: 1.5vw;
+    height: 75vh;
+    width:90wv;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.gallery h1{
+    font-size: 50px;
+    font-family: pixelify sans;
+    color: green;
+    text-shadow: 4px 1px pink;
+    text-align: left;
+    top: 10%;
+    bottom: 10%;
+    left: 5%;
+}
+.mypics img{
+    transition:.20s;
+    margin: 0px;
+    width: 12%;
+    border: 10px outset pink;
+    position: relative;
+    display: inline-block;
+}
